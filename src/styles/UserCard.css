@@ -1,0 +1,26 @@
+.user-card {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 300px;
+  background-color: #2c3043;
+  border: 1px solid #000000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  z-index: 1000;
+  color: black;
+  border-radius: 8px;
+}
+
+.user-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.user-card-content p {
+  margin: 8px 0;
+}

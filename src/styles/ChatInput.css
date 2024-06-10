@@ -1,0 +1,33 @@
+.form-container {
+  width: 50rem;
+  padding: 0.3rem 1.6rem;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center ; 
+  background-color: #000000 !important;
+  box-shadow: rgba(182, 169, 169, 0.05) 0 3.3rem 3.4rem, rgb(0, 0, 0, 0.05) 0 -0.7rem 1.8rem, rgb(0, 0, 0, 0.05) 0 0.2rem 0.3rem, rgb(0, 0, 0, 0.05) 0 0.7rem 0.2rem, rgb(0, 0, 0, 0.05) 0 0.2rem 0.3rem;
+}
+
+.form-container input {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  padding-right: 1rem;
+  background-color: #000000 !important;
+  outline: none;
+  border: none;
+}
+
+.form-container input::placeholder {
+  color: #8e8fa1;
+}
+
+.form-container svg {
+  fill: #8e8fa1;
+  transform: rotate(-45deg);
+}
+
+.form-container svg:hover {
+  fill: #ececf1;
+}

@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.main h1 {
+  font-size: 2rem;
+  color: black;
+}
+.main h3{
+  color: rgb(55, 55, 55);
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.main-bottom p:first-child {
+  padding-top: 0.5rem;
+}
+
+.main-bottom p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #c3c3d1;
+}
+
+.empty-chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.empty-chat-container h3 {
+  font-weight: 500;
+}
+
+.errorText {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .main-header li {
+    margin: 1rem auto;
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .form-container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-header li {
+    gap: 1rem;
+  }
+}
